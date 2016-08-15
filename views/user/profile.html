@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div>
+	<form>
+		<table>
+			<tr>
+				<td>UserID:</td>
+				<td><input name="userid" value="{{.userid}}"></td>
+			</tr>
+			<tr>
+				<td>Tag:</td>
+				<td><input name="tag" value="{{.tag}}"> </td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input name="email" value="yubing9421@qq.com"></td>
+			</tr>
+			<tr>
+				<td>Hobby:</td>
+				<td><input name="hobby" value="{{.hobby}}"></td>
+			</tr>
+		</table>
+	</form>
+
+	{{template "footer.html"}}
+</div>
+
+
+</body>
+</html>>
+
+

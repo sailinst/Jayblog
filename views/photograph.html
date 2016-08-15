@@ -1,0 +1,52 @@
+{{template "header"}}
+  <title>图片 · 我的 Beego 博客</title>
+
+  
+</head>
+<body bgcolor="#003300">
+  <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      <!-- 将导航条由竖变为横 -->
+          {{template "navbar" .}}
+      </div>
+
+      <div class="container">
+         <h1>图片浏览</h1>
+      <table border="8" bordercolorlight=#008000 bordercolordark=#808000>
+      <style type="text/css">
+      td{
+           display: table-cell;
+           
+
+      }
+      img{
+            vertical-align: middle;
+      }
+      </style>
+      <tr style="height:300px">
+          <td ><img src="/static/img/photo/IMG_0009.JPG" style="width:240px" /> 
+          </td>
+          <td><img src="/static/img/photo\IMG_0019.JPG" style="width:240px"/>
+          </td>
+          <td><img src="/static/img/photo\IMG_0068.JPG" style="width:240px" />
+          </td>
+          <td><img src="/static/img/photo\IMG_0063.JPG" style="width:240px"/>
+          </td>
+         
+      </tr>
+      <tr style="height:300px">
+          <td><img src="/static/img/photo\IMG_0051.JPG" style="width:240px" bordercolor="#0000FF"/>
+          </td>
+          <td><img src="/static/img/photo\IMG_0026.JPG" style="width:240px"/>
+          </td>
+          <td><img src="/static/img/photo\IMG_0040.JPG" style="width:240px" />
+          </td>
+          <td><img src="/static/img/photo\IMG_0088.JPG" style="width:240px"/>
+          </td>
+      </tr>
+      
+      </table>
+      </div> 
+  </div>
+</body>
+</html>

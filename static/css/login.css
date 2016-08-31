@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dl,dt,dd{
+	padding: 0;
+	margin: 10px;
+
+}
+body {
+	width: 960px;
+	height: 640px;
+	background: url(../img/login.png);
+    position: relative;
+}
+#top {
+	width: 250px;
+	height: 5px;
+	float: left;
+	padding:220px  430px ;
+}
+#top a{
+	color: #369;
+	font-family: '方正行楷';
+}
+#top:hover{
+	color: #FF8800;
+}
+#header{
+	width: 250px;
+	height: 50px;
+	float: left;
+	position:absolute;
+	padding: 250px 380px;
+}
+#header button{
+	color: #369;
+	font-family: '方正行楷';
+    font-size: 18px;
+}
+#header div label{
+	color: #369;
+	font-family: '方正行楷';
+    font-size: 15px;
+}
+#header div input{
+	color: #888;
+	font-family: '方正行楷';
+    font-size: 15px;
+}

@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dl,dt,dd{
+	padding: 0;
+	margin: 0;
+
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+
+}
+ul{
+	list-style-type: none;
+}
+h2{
+	font-size: 12px;
+	background: url(../img/h2.png);
+	height: 26px;
+	line-height: 26px;
+	color: #360;
+	text-indent: 10px;
+	letter-spacing: 1px;
+}
+h3{
+	font-size: 15px;
+	background: url(../img/h3.png);
+	height: 32px;
+	line-height: 32px;
+	color: #360;
+	text-indent: 10px;
+	letter-spacing: 1px;
+}
+#top {
+	height: 38px;
+	background: url(../img/top.png);
+	margin: 0 0 8px 0;
+	text-align:right;
+}
+#top a {
+	display: inline-block;	
+	padding: 10px 10px 0 0;
+	color: red;
+}
+#header {
+	height: 65px;
+	background: url(../img/header1.png);
+	border: 1px solid;
+	margin: 0 0 8px 0;
+}
+#header h1{
+	width: 200px;
+	height: 65px;	
+	background: url(../img/logo1.png) no-repeat ;
+    font-size: 12px;
+    text-indent: -99999px;
+    float: left;
+}
+#header h1 a{
+	height: 65px;
+	display: block;
+	text-indent: -99999px;
+}
+#header div.adver0{
+	
+	width: 400px;
+	height: 65px;
+	float: left;
+	
+}
+
+#header div.adver0 ul li{
+   height: 65px;
+   float: left;
+   font-family: '方正行楷';
+   font-size: 20px;
+   text-indent:  15px;
+
+}
+#header div.adver {
+	width: 250px;
+	height: 65px;
+	float: right;
+}
+#header div.adver object {
+   display: block;
+   border: none;
+   
+}
+#nav {
+	height: 35px;
+	background: url(../img/nav.png);
+	border: 1px solid #ccc;
+    border-bottom: none;
+}
+#nav ul{
+    height: 35px;
+    line-height: 35px;
+    font-weight: 14px;
+    padding: 0 10px;
+}
+#nav ul li{
+	float: left;
+	font-family: '方正行楷';
+    font-size: 16px;
+    text-indent:  14.8px;
+    padding: 0 10px;
+
+}  
+#nav ul li a {
+	color: #369;
+    text-decoration: none;
+}
+#nav ul li a:hover {
+	color: #f60;
+    
+}
+#search {
+	width: 384px;
+	height: 32px;
+	background: ;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 12px 0 0 5px ;
+}
+#search form{
+	display: block;
+}
+#search form input.text{
+   width: 240px;
+   height: 16px;
+}
+#search form input.submit{
+   width: 43px;
+   height: 22px;
+}
+#article {
+    width: 555px;
+	height: 400px;
+	background: blue;
+    float: right;
+    margin: -45px 0 10px 0;
+}
+
+#pic {
+	width: 390px;
+	height: 195px;
+	background: green;
+    float: left;
+    margin: 0 0 10px 0;
+}
+#rec {
+	width: 390px;
+	height: 195px;
+	background: red;
+    float: left;
+    margin: 0 0 10px 0;
+}
+#comment {
+	width: 555px;
+	height: 200px;
+	background: navy;
+	margin: 0 0 10px 0;
+	float: right;
+}
+#other {
+	width: 390px;
+	height: 155px;
+	background: blue;
+    float: left;
+	margin: 0 0 10px 0;
+}
+#link {
+	width: 960px;
+	height: 100px;
+	background: green;
+    float: left;
+    margin: 0 0 10px 0;
+}
+#footer {
+	width: 960px;
+	height: 40px;
+	background: orange;
+    float: left;
+}

@@ -4,6 +4,7 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
+
 	"os"
 	"path"
 	"strconv"
@@ -69,13 +70,15 @@ func RegisterDB() {
 	orm.RegisterDataBase("default", _MYSQL_DRIVER, "root:Aa1234@/Jayblog?charset=utf8", 20, 20)
 
 }
-func AddUser(username, password string) error {
+func AddUser(username, password, email string) error {
 	o := orm.NewOrm()
-	user := &User{
-		Name:     username,
-		Password: password,
-	}
-	_, err := o.Insert(user)
+	/*
+		user := &User{
+			Name:     username,
+			Password: password,
+			Email:    email,
+		} */
+	_, err := o.Insert(&User{Name: username, Password: password, Email: email})
 	return err
 }
 func AddTopic(title, content string) error {
@@ -88,7 +91,9 @@ func AddTopic(title, content string) error {
 		Updated: time.Now(),
 	}
 	_, err := o.Insert(topic)
+
 	return err
+
 }
 func AddCategory(name string) error {
 	o := orm.NewOrm()

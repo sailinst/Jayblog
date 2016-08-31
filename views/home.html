@@ -2,24 +2,57 @@
 
   <title>首页 · 我的 Beego 博客</title>
 
-</head>
+{{template "navbar"}}
 
-<body>
-  <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-      <!-- 将导航条由竖变为横 -->
-          {{template "navbar" .}}
-      </div>
-      <div class="container">
-            <h1>我的第一个博客</h1>
-            <h6 class="text-muted">文章发表于 2016 年 8月 7 日 18:26， 共有100次浏览，200次评论</h6>
-            <p>
-               大家好， 这是我的第一个博客。
-            </p>
-      </div> 
-   </div>
-   <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
-   <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+<div id="nav">
+   <ul>
+   	 
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+   	 <li><a href="###">广告位招租</a></li>
+
+   </ul>
+</div>
+<div id="search">
+   <form>
+   	  <select name="search">
+   	  	<option selected="selected">按标题</option>
+        <option>按关键字</option>
+        <option>全局查询</option>
+   	  </select>
+   	  <input id="text" type="text" name="keyword" class="text" />
+   	  <input type="submit" name="send" class="submit" value="搜索">
+
+   </form>
+</div>
+
+<div id="article">
+  <h3>文章</h3>
+</div>
+<div id="pic">
+  <h2>取名1</h2>
+
+</div>
+
+  
+<div id="rec">
+    <h2>取名2</h2>
+</div>
+  
+<div id="comment">
+    <h3>评论区</h3>
+</div>
    
+<div id="other">
+    <h2>取名3</h2>
+</div>
+  
+<div id="link">link</div>
+<div id="footer">footer</div>
+<link rel="stylesheet" type="text/css" href="static/css/home.css">
 </body>
-</html>
